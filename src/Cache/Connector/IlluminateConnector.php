@@ -69,7 +69,7 @@ final class IlluminateConnector implements ConnectorInterface
      *
      * @return \GrahamCampbell\BoundedCache\BoundedCacheInterface
      */
-    public function connect(array $config)
+    public function connect(array $config): object
     {
         $repository = $this->getRepository($config);
 
