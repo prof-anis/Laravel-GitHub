@@ -107,7 +107,7 @@ class GitHubManager extends AbstractManager
      *
      * @return \Github\Client
      */
-    protected function createConnection(array $config)
+    protected function createConnection(array $config): object
     {
         return $this->factory->make($config);
     }
@@ -117,7 +117,7 @@ class GitHubManager extends AbstractManager
      *
      * @return string
      */
-    protected function getConfigName()
+    protected function getConfigName(): string
     {
         return 'github';
     }
@@ -131,7 +131,7 @@ class GitHubManager extends AbstractManager
      *
      * @return array
      */
-    public function getConnectionConfig(string $name = null)
+    public function getConnectionConfig(string $name = null): array
     {
         $config = parent::getConnectionConfig($name);
 

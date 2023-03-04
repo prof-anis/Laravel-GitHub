@@ -11,13 +11,13 @@
         }
     ],
     "require": {
-        "php":  "^7.4.15 || ^8.0.2",
+        "php":  "^7.4.15 || ^8.0.2 || ^8.1",
         "graham-campbell/bounded-cache": "^1.2 || ^2.0",
-        "graham-campbell/manager": "^4.7",
+        "graham-campbell/manager": "^5.0",
         "guzzlehttp/guzzle": "^7.4.3",
         "guzzlehttp/psr7": "^2.2.1",
-        "illuminate/contracts": "^8.75 || ^9.0",
-        "illuminate/support": "^8.75 || ^9.0",
+        "illuminate/contracts": "^8.75 || ^9.0 || ^10.0",
+        "illuminate/support": "^8.75 || ^9.0 || ^10.0",
         "knplabs/github-api": "3.6.*",
         "lcobucci/jwt": "^4.1.5",
         "symfony/cache": "^5.4 || ^6.0"
